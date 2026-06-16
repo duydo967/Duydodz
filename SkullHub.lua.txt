@@ -1,6 +1,6 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/Fix-Lag.lua.txt"))()
 --[[
-    Abacaxi Hub - Optimized Version
+    duydodz Hub - Optimized Version
     Performance & Code Quality Improvements
 ]]
 
@@ -98,13 +98,13 @@ local function NotificacaoNightMystic(titulo, mensagem)
     end
 end
 
-NotificacaoNightMystic("Skull Hub", "Script loaded successfully!")
+NotificacaoNightMystic("duydo Hub", "Script loaded successfully!")
 
 -- ========================================
 -- SAVE SYSTEM (Optimized)
 -- ========================================
 local HttpService = Services.HttpService
-local FolderName = "Skull Hub"
+local FolderName = "duydo hub"
 local FileName = "Settings.json"
 local FullPath = FolderName .. "/" .. FileName
 
