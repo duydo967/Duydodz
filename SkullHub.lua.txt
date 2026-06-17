@@ -1,7 +1,8 @@
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hdanhhub/hdanhhub/refs/heads/main/Fix-Lag.lua.txt"))()
 --[[
-    duydodz Hub - Optimized Version
+    duydo hub - Optimized Version
     Performance & Code Quality Improvements
+    by duydo
 ]]
 
 -- Cache all services at start for better performance
@@ -94,14 +95,14 @@ local function NotificacaoNightMystic(titulo, mensagem)
     end)
     
     if not success then
-        warn("[Maça] Erro ao exibir notificação")
+        warn("[duydo] Oshibka pri pokaze uvedomleniya")
     end
 end
 
-NotificacaoNightMystic("duydo Hub", "Script loaded successfully!")
+NotificacaoNightMystic("duydo hub", "Skript uspeshno zagruzhen!")
 
 -- ========================================
--- SAVE SYSTEM (Optimized)
+-- SISTEMA SOHRANENIYA (Optimizirovan)
 -- ========================================
 local HttpService = Services.HttpService
 local FolderName = "duydo hub"
