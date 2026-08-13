@@ -293,7 +293,7 @@ local function NotificacaoNightMystic(titulo, mensagem)
     local success = pcall(function()
         local TweenService = Services.TweenService
         local CoreGui = Services.CoreGui
-        local LogoID = "rbxassetid://123125273841981"
+        local LogoID = "rbxassetid://133680655044922"
 
         local ScreenGui = Instance.new("ScreenGui")
         ScreenGui.Name = "NM_Notify"
@@ -320,7 +320,7 @@ local function NotificacaoNightMystic(titulo, mensagem)
         Logo.Parent = Frame
         Logo.BackgroundTransparency = 1
         Logo.Position = UDim2.new(0, 10, 0, 10)
-        Logo.Size = UDim2.new(0, 30, 0, 30)
+        Logo.Size = UDim2.new(0, 20, 0, 20)
         Logo.Image = LogoID
         Logo.ScaleType = Enum.ScaleType.Fit
 
