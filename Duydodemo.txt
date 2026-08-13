@@ -26,8 +26,8 @@ if _G.FastAttack then
     local CommE = SafeWaitForChild(Remotes, "CommE")
 
     local Settings = {
-        AutoClick = true,
-        ClickDelay = 0
+        AutoClick = false,
+        ClickDelay = 0.3
     }
 
     local Module = {}
@@ -374,7 +374,7 @@ local function NotificacaoNightMystic(titulo, mensagem)
     end
 end
 
-NotificacaoNightMystic("vi hieu Hub", "Script carregado com sucesso!")
+NotificacaoNightMystic("Duydo Hub", "Script carregado com sucesso!")
 
 -- Garante que o jogo carregou antes de procurar remotes/character.
 -- Isso evita o bug onde só a notificação aparece e a UI nunca abre.
@@ -386,7 +386,7 @@ end
 -- SAVE SYSTEM (Optimized)
 -- ========================================
 local HttpService = Services.HttpService
-local FolderName = "vi hieu Hub"
+local FolderName = "Duydo Hub"
 local FileName = "Settings.json"
 local FullPath = FolderName .. "/" .. FileName
 
